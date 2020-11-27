@@ -1,0 +1,131 @@
+body {
+      margin: 0;
+      padding: 0;
+} 
+#menu {
+      z-index: 500;
+      display: block;
+      position: fixed;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+} 
+#menu a {
+      text-decoration : none;
+      padding-top: 3px;
+      text-align:center;
+      float: left;
+      color: #000000;
+      background-color: #00BBDD;
+      background-repeat: no-repeat;
+      width: 33%;
+      height: 40px;
+      font-size: 30px;
+      border: 1px solid #000000;
+      border-radius: 10px 10px 10px 10px;
+}
+#menu a.about {
+      border-radius: 0px 0px 10px 10px;
+}
+#menu a.home {
+      border-radius: 10px 0px 10px 10px;
+}
+#menu a.contact {
+      border-radius: 0px 10px 10px 10px;
+} 
+#menu a:hover {
+      background-color: #88EEFF;
+}
+h1 {
+   color: #dd4400;
+   margin-top:10px;
+   text-align: center;
+   font-size: 800;
+}
+.heading {
+   color:#dd4400;
+   font-family: sans-serif;
+   margin-left: 25px;
+}
+.products img{
+   width: 70%;
+   height: 50;
+   border:1px solid #000000;
+   margin-left: 25px;
+}
+.products h4{
+   color: #006688;
+   margin-left: 25px;
+}
+p{
+   margin-left: 25px;
+} 
+.visual img {
+   width: 50%;
+   height: 30%;
+   float: left;
+}
+.price h5 {
+   color: red;
+}
+.price b {
+   color: black;
+   margin-left: 25px;
+}
+.pc img {
+   width: 50%;
+   height: 30%;
+ }
+ button {
+   color: red;
+   margin-left: 25px;
+   font-weight: 600;
+   background-color: black;
+   width: 100%;
+}
+.info table {
+   border-collapse : collapse ;
+   border-width : 1px ;
+   border-style : solid ;
+   margin-left: 25px;
+}
+.info h2 {
+   color: #992200;
+   margin-left:25px;
+}
+form {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #dd4400;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+} 
+.about {
+      color: #00BBDD;
+}
+h3 {
+      margin-left: 25px;
+} 
